@@ -111,7 +111,7 @@ a {
 }
 
 #caixa-1{
-    background-image: url(../img/fechadura.png);
+    background-image: url(../img/senha.png);
     background-size: 80px;
     
 }
@@ -134,13 +134,13 @@ a {
 }
 
 #caixa-5{
-    background-image: url(../img/tarefa.png);
+    background-image: url(../img/diaria.png);
     background-size: 95px;
     background-position: 55% 70%;
 }
 
 #caixa-6{
-    background-image: url(../img/central-de-atendimento.png);
+    background-image: url(../img/ouvidoria.png);
     background-size: 88px;
     background-position: 50% 80%;
 }
