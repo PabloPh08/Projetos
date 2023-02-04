@@ -57,9 +57,9 @@ h2{
 }
 
 main{
-    height: 100vh;
-    width: 70vw;
-    margin: auto;
+    height: auto;
+    width: 50vw;
+    margin:auto;
 }
 
 .container{
@@ -92,7 +92,16 @@ main{
     text-align: center;
     color: black;
     font-weight: bold;
-    font-size: 1.8em;
+    font-size: 1.4em;
+    
+    padding: 20px 0px 0px 0px;
+}
+
+.legenda-2{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 1.4em;
     
     padding: 10px 0px 0px 0px;
 }
@@ -103,20 +112,38 @@ a {
 
 #caixa-1{
     background-image: url(../img/fechadura.png);
-    background-size: 100px;
+    background-size: 80px;
     
 }
 
 #caixa-2{
     background-image: url(../img/email.png);
-    background-size: 100px;
+    background-size: 80px;
 }
 
 #caixa-3{
     background-image: url(../img/ramal.png);
-    background-size: 120px;
+    background-size: 100px;
+    background-position: 50% 70%;
 }
 
+#caixa-4{
+    background-image: url(../img/SEI.png);
+    background-size: 85px;
+    background-position: 50% 78%;
+}
+
+#caixa-5{
+    background-image: url(../img/tarefa.png);
+    background-size: 95px;
+    background-position: 55% 70%;
+}
+
+#caixa-6{
+    background-image: url(../img/central-de-atendimento.png);
+    background-size: 88px;
+    background-position: 50% 80%;
+}
 footer {
     background-color: var(--HEADER);
     width: 100vw;
