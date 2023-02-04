@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+:root {
+    --HEADER: #958969; 
+    --CAIXAS: #b5a67c;
+    --BODY: #e5e8e0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--BODY);
+}
+
+header {
+    background-color: var(--HEADER);
+    width: 100vw;
+    height: 80px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.45);
+}
+
+.logo-apg {
+    padding: 14px 0px 0px 14px;
+}
+
+.logo {
+    background-image: url(../img/marca\ gov\ sepromi.png);
+    background-repeat: no-repeat;
+    background-size: 260px;
+
+    width: 360px;
+    height: 110px;
+}
+
+h1{
+    text-align: center;
+    margin: 30px;
+}
+
+hr{
+    width: 70vw;
+}
+
+#linha{
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    margin: 50px 0px -50px 0px;
+    font-size: 1.7em;
+}
+
+main{
+    height: 100vh;
+    width: 70vw;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 100px 0px 0px 0px;
+
+}
+
+.caixas{
+    width: 250px;
+    height: 170px;
+    margin: 10px 10px 10px 10px;
+    
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.438);
+
+    background-color: var(--CAIXAS);
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+}
+
+.shadow:hover {
+    transition: transform 0.5s;
+    transform: translate(-4px, -4px);
+}
+
+.legenda {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 1.8em;
+    
+    padding: 10px 0px 0px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#caixa-1{
+    background-image: url(../img/fechadura.png);
+    background-size: 100px;
+    
+}
+
+#caixa-2{
+    background-image: url(../img/email.png);
+    background-size: 100px;
+}
+
+#caixa-3{
+    background-image: url(../img/ramal.png);
+    background-size: 120px;
+}
+
+footer {
+    background-color: var(--HEADER);
+    width: 100vw;
+    height: 20px;
+    
+    position: fixed;
+    bottom: 0%;
+    padding: 5px 0px 5px 0px;
+}
+
+footer > p {
+    color: #1d1403e5;
+    font-size: 1em;
+    text-align: center;
+}
+
+footer > p > a {
+    color: #2e2005e5;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
