@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+:root {
+    --HEADER: #0c5b91;
+    --NAV: #1e85b88c;
+    --NAV-HOVER: #124e6b;
+    --BODY: #f0f6f6;
+    --MAIN: #e5ebeb; 
+    --FONT-COLOR: #ffffff;
+    --FOOTER-COLOR: #124e6b;
+    --FONT-BASE: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--FONT-BASE);
+    background-color: var(--BODY);
+}
+
+/* HEADER */
+
+div#logo-sudesb{
+    display: flex;
+    justify-content: left;
+
+    position: relative;
+
+    padding: 0px 0px 0px 0px;
+    bottom: 25%;
+}
+
+header{
+    background-color: var(--HEADER);
+
+    height: 100px;
+    width: 100vw;
+}
+
+/* HEADER */
+
+/* MAIN */
+
+a{
+    text-decoration: none;
+}
+
+main{
+
+    margin: auto;
+    width: 60vw;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.8em;
+    margin: 30px 0px 30px 0px;
+}
+
+h2{
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+/* MAIN */
+
+footer {
+    
+    background-color: var(--FOOTER-COLOR);
+    color: #ffffff;
+    font-size: 1.1em;
+    text-align:center;
+
+    position:fixed;
+    bottom: 0;
+
+    width:100vw;
+    height: 25px;
+
+    padding-top: 4px;
+}
+
+footer > p > a {
+    text-decoration: none;
+    font-weight: bold;
+
+    color: var(--font-black);
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
+
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
