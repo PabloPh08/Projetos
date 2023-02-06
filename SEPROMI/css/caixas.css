@@ -44,6 +44,18 @@
     background-image: url(../img/ouvidoria.png);
     }
 
+#caixa-7{
+    background-image: url(../img/manutencao.png);
+}
+
+#caixa-8{
+    background-image: url(../img/manutencao.png);
+}
+
+#caixa-9{
+    background-image: url(../img/manutencao.png);
+}
+
 .shadow:hover {
     transition: transform 0.5s;
     transform: translate(-4px, -4px);
